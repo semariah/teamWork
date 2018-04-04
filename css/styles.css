@@ -13,6 +13,17 @@ body{
   background-image: url("https://wallpapercave.com/wp/Na9UAEp.jpg");
   background-size: center;
 }
+
+.notHaunted{
+  background-color: black;
+  background-image: url("http://annemckinnell.com/blog/wp-content/uploads/2012/04/texas_20120306__MG_9464_5_6_tonemapped-Edit-Edit-2.jpg");
+  background-size: cover;
+  /*background-position: cover;*/
+  background-repeat: no-repeat;
+
+}
+
+
 .hidden{
   display: none;
   color: white;
@@ -25,6 +36,7 @@ body{
   font-style: italic;
   color: red;
 }
+
 #story-1{
   display: none;
   color: white;
@@ -74,3 +86,7 @@ body{
   background-size: cover;
 
 }
+/*#ghostwedding{
+  float: left;
+  background-color: black;
+}*/

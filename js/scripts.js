@@ -50,6 +50,8 @@ $(document).ready(function(){
     }
     else{
       $("#story-3").show();
+      $("#stroy-3").show();
+      $("body").addClass("notHaunted");
     }
 
     $("#quiz").hide();
