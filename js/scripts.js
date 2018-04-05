@@ -41,12 +41,13 @@ $(document).ready(function(){
     var lonely = $("select#lonely").val();
     var prefer = $("select#prefer").val();
 
-    if(hauntType === 'yes'){
+    if(hauntType === 'yes'|| lonely === 'no'){
       $("#story-1").show();
       $("body").addClass("mindFreak");
     }
     else if(lightsOff === 'no'){
       $("#story-2").show();
+      $("body").addClass("snapchat");
     }
     else{
       $("#story-3").show();
@@ -56,5 +57,8 @@ $(document).ready(function(){
 
     $("#quiz").hide();
     event.preventDefault();
+  });
+  $("button#surprise").click(function(){
+    $()
   });
 });
